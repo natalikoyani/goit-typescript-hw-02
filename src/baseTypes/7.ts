@@ -14,7 +14,7 @@ SUNDAY,
 }
 
 function isWeekend(day: Days): boolean {
-  if(day === Days.SATURDAY || Days.SUNDAY) {
+  if (day === Days.SATURDAY || day === Days.SUNDAY) {
     return true;
   }
   return false;

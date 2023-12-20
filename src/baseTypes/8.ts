@@ -3,6 +3,9 @@
   який може містити значення "male", "female". Створіть змінну myGender цього типу.
 */
 type Gender = 'male' | 'female';
-const myGender: Gender = 'female';
+
+let myGender: Gender;
+
+myGender = 'female';
 
 export {};
